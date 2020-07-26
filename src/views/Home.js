@@ -78,7 +78,7 @@ const Home = props => {
                     mit={bool ? event => addTask(event) : event => editTask(event)} >
 
                         <div className="m-3 form-group">
-                            <label htmlFor="InputUser">Usuario</label>
+                            <label htmlFor="InputUser">Usuarios</label>
                             <input id="InputUser" value={user} type="text" className="form-control in_user" onChange={(event) => setUser(event.target.value)} />
                         </div>
 

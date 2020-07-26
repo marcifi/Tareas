@@ -20,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "vercel": "git add . && git commit -m vercel && git push origin master"
   },
   "eslintConfig": {
     "extends": "react-app"
